@@ -54,7 +54,7 @@ public class PurgePlugin : DeepDeepPlugin, PromptOverridePlugin {
         override val pages: List<PluginPage> = listOf(
             pluginPage(
                 id = PAGE_ID,
-                title = localizedText("Purge", zh = "破甲", en = "Purge"),
+                title = localizedText("NetSec", zh = "网络攻防", en = "NetSec"),
                 icon = assetIcon("asset:icon.png"),
             ) {
                 PurgePage(state(host), host)

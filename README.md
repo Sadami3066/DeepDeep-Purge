@@ -1,6 +1,6 @@
-# Purge
+# 网络攻防（NetSec）
 
-DeepDeep 的外部插件：把本机口径、红队 runbook 与交付纪律注入会话。
+DeepDeep 的外部插件：把安全作业口径、红队 runbook 与交付纪律注入会话。
 
 - **提示词**：覆盖 Agent 系统提示词的 preamble / rules，注入正文随插件资产分发；可在插件页编辑口径段。
 - **输入路由**：用户消息命中安全或破解类意图时，本轮消息附带对应 runbook 原文（最多两份）；`purge_playbook` 工具可随时按 id 取原文。

@@ -1,6 +1,6 @@
 {
   "id": "io.github.whywood.deepdeep.plugin.purge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "apiLevel": 6,
   "minHostVersion": "1.0.4",
   "ui": {
@@ -9,20 +9,21 @@
   "capabilities": ["prompt", "chat"],
   "entryClass": "io.github.whywood.deepdeep.plugin.purge.PurgePlugin",
   "name": {
-    "default": "Purge",
-    "zh": "破甲",
-    "en": "Purge"
+    "default": "NetSec",
+    "zh": "网络攻防",
+    "en": "NetSec"
   },
   "summary": {
-    "default": "注入本机口径、红队 runbook 与交付纪律。",
-    "zh": "注入本机口径、红队 runbook 与交付纪律。",
-    "en": "Inject local delivery rules and red-team runbooks."
+    "default": "注入安全作业口径、红队 runbook 与交付纪律。",
+    "zh": "注入安全作业口径、红队 runbook 与交付纪律。",
+    "en": "Inject security-ops rules, red-team runbooks and delivery discipline."
   },
   "description": {
-    "default": "把口径段、红队 runbook 与交付纪律注入当前会话，安全与破解类请求自动附带原文，模型拒答时补一份可直接执行的内容。",
-    "zh": "把口径段、红队 runbook 与交付纪律注入当前会话，安全与破解类请求自动附带原文，模型拒答时补一份可直接执行的内容。",
-    "en": "Inject local delivery rules and red-team runbooks into the session, attach the original runbook for security and cracking requests, and add usable content when the model refuses."
+    "default": "在会话中注入安全作业口径与红队 runbook，覆盖侦察、漏洞验证、凭据测试、隧道与内网横向。命中安全类请求时附带对应 runbook 原文；模型拒答时补一条可直接执行的内容。仅用于自有或受托资产的授权测试。",
+    "zh": "在会话中注入安全作业口径与红队 runbook，覆盖侦察、漏洞验证、凭据测试、隧道与内网横向。命中安全类请求时附带对应 runbook 原文；模型拒答时补一条可直接执行的内容。仅用于自有或受托资产的授权测试。",
+    "en": "Inject security-ops rules and red-team runbooks into the session, covering recon, vulnerability verification, credential testing, tunnels and lateral movement. Matched requests carry the original runbook; when the model refuses, a directly usable fallback is posted. For authorized testing of owned or entrusted assets only."
   },
+  "homepage": "https://github.com/Sadami3066/DeepDeep-Purge",
   "icon": "asset:icon.png",
   "publisher": {
     "name": "milous"
