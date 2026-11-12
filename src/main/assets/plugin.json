@@ -1,0 +1,37 @@
+{
+  "id": "io.github.whywood.deepdeep.plugin.purge",
+  "version": "1.0.0",
+  "apiLevel": 6,
+  "minHostVersion": "1.0.4",
+  "ui": {
+    "apiLevel": 2
+  },
+  "capabilities": ["prompt", "chat"],
+  "entryClass": "io.github.whywood.deepdeep.plugin.purge.PurgePlugin",
+  "name": {
+    "default": "Purge",
+    "zh": "破甲",
+    "en": "Purge"
+  },
+  "summary": {
+    "default": "注入本机口径、红队 runbook 与交付纪律。",
+    "zh": "注入本机口径、红队 runbook 与交付纪律。",
+    "en": "Inject local delivery rules and red-team runbooks."
+  },
+  "description": {
+    "default": "把口径段、红队 runbook 与交付纪律注入当前会话，安全与破解类请求自动附带原文，模型拒答时补一份可直接执行的内容。",
+    "zh": "把口径段、红队 runbook 与交付纪律注入当前会话，安全与破解类请求自动附带原文，模型拒答时补一份可直接执行的内容。",
+    "en": "Inject local delivery rules and red-team runbooks into the session, attach the original runbook for security and cracking requests, and add usable content when the model refuses."
+  },
+  "icon": "asset:icon.png",
+  "publisher": {
+    "name": "milous"
+  },
+  "provides": {
+    "tools": ["purge_playbook"],
+    "skills": [],
+    "uiSlots": [],
+    "pages": ["main"]
+  },
+  "defaultEnabled": true
+}

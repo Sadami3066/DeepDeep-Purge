@@ -1,0 +1,8 @@
+Purge（DeepDeep 外部插件）
+Copyright (c) 2026 Sadami3066
+
+本插件 src/main/assets/purge/ 下的提示词与红队 runbook 内容源自 dsh-purge-plus
+（MIT，作者 小杨 / YuJunZhiXue），经 DeepDeep Pull Request #12 引入，按原样随本插件分发。
+上游项目与作者保留其内容的一切权利；本仓库对上述内容不做再创作。
+
+插件代码以 MIT 许可发布，全文见 LICENSE。
